@@ -1,7 +1,11 @@
-<?php
-/**
- * Problema propuesto:
- *
- * Implementar una función que muestre un título centrado en pantalla, y la llamaremos posteriormente dos veces.
-*/
+<?php 
+
+function titulo($tittle){
+	echo "<center> $tittle </center >";
+	
+}
+
+titulo('hola');
+titulo('como estas');
+
 ?>
