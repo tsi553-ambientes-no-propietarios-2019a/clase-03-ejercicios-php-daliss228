@@ -18,7 +18,7 @@ foreach ($array as $letras) {
 		$cont1++;
 	}elseif ($letras =='e' || $letras == 'E'){
 		$cont2++;
-	}elseif ($letras =='i' || $letras == 'I' || $letras == 'í'){
+	}elseif ($letras =='i' || $letras == 'I'){
 		$cont3++;
 	}elseif ($letras =='o' || $letras == 'O'){
 		$cont4++;
@@ -32,12 +32,12 @@ if($cont1==1&&$cont2==1&&$cont3==1&&$cont4==1&&$cont5==1){
 	echo "La palabra $palabra contiene las 5 vocales".'<br>';
 }
 
-echo 'num de a: '.$cont1.'<br>';
+/*echo 'num de a: '.$cont1.'<br>';
 echo 'num de e: '.$cont2.'<br>';
 echo 'num de i: '.$cont3.'<br>';
 echo 'num de o: '.$cont4.'<br>';
-echo 'num de u: '.$cont5.'<br>';
+echo 'num de u: '.$cont5.'<br>';*/
 }
 
-palabra('acuífero');
+palabra('murcielago');
 ?>
